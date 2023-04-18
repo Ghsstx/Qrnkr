@@ -1,0 +1,770 @@
+--Quer Nuker
+
+local PCVersion = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Frame_2 = Instance.new("TextLabel")
+local Silent = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Silent_2 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local Silent_3 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local black = Instance.new("TextLabel")
+local black_2 = Instance.new("TextLabel")
+local PremiumStatus = Instance.new("TextLabel")
+local titleAimlock = Instance.new("TextLabel")
+local Frame_3 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local black_3 = Instance.new("TextLabel")
+local black_4 = Instance.new("TextLabel")
+local Frame_4 = Instance.new("TextLabel")
+local ESP = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local ESP_2 = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local ESP_3 = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local black_5 = Instance.new("TextLabel")
+local black_6 = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+
+
+PCVersion.Name = "PC Version"
+PCVersion.Parent = game.CoreGui
+
+Frame.Parent = PCVersion
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Frame.Position = UDim2.new(0.0610079207, 0, 0.403167874, 0)
+Frame.Size = UDim2.new(0, 296, 0, 441)
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel.Size = UDim2.new(0, 296, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Quer Nuker"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel.TextSize = 14.000
+
+Frame_2.Name = "Frame"
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Frame_2.Position = UDim2.new(0.0304054059, 0, 0.378684819, 0)
+Frame_2.Size = UDim2.new(0, 279, 0, 119)
+Frame_2.Font = Enum.Font.SourceSans
+Frame_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.TextSize = 14.000
+
+Silent.Name = "Silent"
+Silent.Parent = Frame_2
+Silent.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Silent.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Silent.Position = UDim2.new(0.563571692, 0, 0.424036294, 0)
+Silent.Size = UDim2.new(0, 71, 0, 24)
+Silent.Font = Enum.Font.SourceSans
+Silent.Text = "Silent"
+Silent.TextColor3 = Color3.fromRGB(255, 0, 4)
+Silent.TextSize = 14.000
+Silent.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+
+end)
+
+TextLabel_2.Parent = Silent
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_2.Position = UDim2.new(0, 0, -0.695652187, 0)
+TextLabel_2.Size = UDim2.new(0, 71, 0, 16)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Silent (3)"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_2.TextSize = 14.000
+
+Silent_2.Name = "Silent"
+Silent_2.Parent = Frame_2
+Silent_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Silent_2.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Silent_2.Position = UDim2.new(0.303436518, 0, 0.424036294, 0)
+Silent_2.Size = UDim2.new(0, 71, 0, 24)
+Silent_2.Font = Enum.Font.SourceSans
+Silent_2.Text = "Silent"
+Silent_2.TextColor3 = Color3.fromRGB(255, 0, 4)
+Silent_2.TextSize = 14.000
+Silent_2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/.../main/....."),true))()
+
+end)
+
+TextLabel_3.Parent = Silent_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_3.Position = UDim2.new(0, 0, -0.695652187, 0)
+TextLabel_3.Size = UDim2.new(0, 71, 0, 16)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Silent (2)"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_3.TextSize = 14.000
+
+Silent_3.Name = "Silent"
+Silent_3.Parent = Frame_2
+Silent_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Silent_3.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Silent_3.Position = UDim2.new(0.0399229862, 0, 0.424036294, 0)
+Silent_3.Size = UDim2.new(0, 71, 0, 24)
+Silent_3.Font = Enum.Font.SourceSans
+Silent_3.Text = "Silent"
+Silent_3.TextColor3 = Color3.fromRGB(255, 0, 4)
+Silent_3.TextSize = 14.000
+Silent_3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/iNd3xTPv"))()
+
+end)
+
+TextLabel_4.Parent = Silent_3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_4.Position = UDim2.new(0, 0, -0.695652187, 0)
+TextLabel_4.Size = UDim2.new(0, 71, 0, 16)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Silent (1)"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_4.TextSize = 14.000
+
+black.Name = "black"
+black.Parent = Frame_2
+black.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+black.BorderColor3 = Color3.fromRGB(255, 0, 4)
+black.Position = UDim2.new(-0.00247028307, 0, 0.726757467, 0)
+black.Size = UDim2.new(0, 279, 0, 26)
+black.Font = Enum.Font.SourceSans
+black.Text = "ESP"
+black.TextColor3 = Color3.fromRGB(0, 0, 0)
+black.TextSize = 14.000
+
+black_2.Name = "black"
+black_2.Parent = Frame_2
+black_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+black_2.BorderColor3 = Color3.fromRGB(255, 0, 4)
+black_2.Position = UDim2.new(0.873679996, 0, 0.416099697, 0)
+black_2.Size = UDim2.new(0, 31, 0, 53)
+black_2.Font = Enum.Font.SourceSans
+black_2.Text = "S"
+black_2.TextColor3 = Color3.fromRGB(255, 0, 4)
+black_2.TextSize = 14.000
+
+PremiumStatus.Name = "Premium Status"
+PremiumStatus.Parent = Frame
+PremiumStatus.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PremiumStatus.BorderColor3 = Color3.fromRGB(255, 0, 4)
+PremiumStatus.Position = UDim2.new(0.00337837846, 0, 0.886621296, 0)
+PremiumStatus.Size = UDim2.new(0, 295, 0, 50)
+PremiumStatus.Font = Enum.Font.SourceSans
+PremiumStatus.Text = "Premium: True"
+PremiumStatus.TextColor3 = Color3.fromRGB(255, 0, 4)
+PremiumStatus.TextSize = 14.000
+
+titleAimlock.Name = "title Aimlock"
+titleAimlock.Parent = Frame
+titleAimlock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+titleAimlock.BorderColor3 = Color3.fromRGB(255, 0, 4)
+titleAimlock.Position = UDim2.new(0.0304054059, 0, 0.136054426, 0)
+titleAimlock.Size = UDim2.new(0, 279, 0, 14)
+titleAimlock.Font = Enum.Font.SourceSans
+titleAimlock.Text = "Aimlock"
+titleAimlock.TextColor3 = Color3.fromRGB(255, 0, 4)
+titleAimlock.TextSize = 14.000
+
+Frame_3.Name = "Frame"
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Frame_3.Position = UDim2.new(0.0304054059, 0, 0.136054426, 0)
+Frame_3.Size = UDim2.new(0, 279, 0, 98)
+Frame_3.Font = Enum.Font.SourceSans
+Frame_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.TextSize = 14.000
+
+TextButton.Parent = Frame_3
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextButton.Position = UDim2.new(0.563571692, 0, 0.424036294, 0)
+TextButton.Size = UDim2.new(0, 71, 0, 24)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Aimlock"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/SubtoRyzzchips"))();
+
+end)
+
+TextLabel_5.Parent = TextButton
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_5.Position = UDim2.new(0, 0, -0.695652187, 0)
+TextLabel_5.Size = UDim2.new(0, 71, 0, 16)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Aimlock (3)"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_5.TextSize = 14.000
+
+TextButton_2.Parent = Frame_3
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_2.Position = UDim2.new(0.303436518, 0, 0.424036294, 0)
+TextButton_2.Size = UDim2.new(0, 71, 0, 24)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Aimlock"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()
+	Settings = {
+    rewrittenmain = {
+    Enabled = true,
+    Key = "q",
+    DOT = true,
+    AIRSHOT = true,
+    NOTIF = true,
+    AUTOPRED = true,
+    FOV = math.huge,
+    RESOVLER = true
+}
+}
+
+local SelectedPart = "HumanoidRootPart"
+local Prediction = true
+_G.PredictionValue = 0.1
+
+
+local AnchorCount = 0
+local MaxAnchor = 50
+
+local CC = game:GetService"Workspace".CurrentCamera
+local Plr;
+local enabled = false
+local accomidationfactor = 0.1
+local mouse = game.Players.LocalPlayer:GetMouse()
+
+local Inset = game:GetService("GuiService"):GetGuiInset().Y
+local Line = Drawing.new("Line")
+local Text = Drawing.new("Text")
+local Circle = Drawing.new("Circle")
+
+
+_G.Types = {
+    Ball = Enum.PartType.Ball,
+    Block = Enum.PartType.Block, 
+    Cylinder = Enum.PartType.Cylinder
+}
+                  
+                  local placemarker = Instance.new("Part", game.Workspace)
+                  placemarker.Shape = _G.Types.Ball
+                  placemarker.Material = "ForceField"
+                  placemarker.Color = Color3.new(120, 6, 213)
+
+
+function makemarker(Parent, Adornee, Color, Size, Size2)
+    local e = Instance.new("BillboardGui", Parent)
+    e.Name = "PP"
+    e.Adornee = Adornee
+    e.Size = UDim2.new(Size, Size2, Size, Size2)
+    e.AlwaysOnTop = Settings.rewrittenmain.DOT
+    local a = Instance.new("Frame", e)
+    if Settings.rewrittenmain.DOT == true then
+    a.Size = UDim2.new(1, 0, 1, 0)
+    else
+    a.Size = UDim2.new(0, 0, 0, 0)
+    end
+    if Settings.rewrittenmain.DOT == true then
+    a.Transparency = 0
+    a.BackgroundTransparency = 0
+    else
+    a.Transparency = 1
+    a.BackgroundTransparency = 1
+    end
+    a.BackgroundColor3 = Color
+    local g = Instance.new("UICorner", a)
+    if Settings.rewrittenmain.DOT == false then
+    g.CornerRadius = UDim.new(0, 0)
+    else
+    g.CornerRadius = UDim.new(1, 1) 
+    end
+    return(e)
+end
+
+
+local data = game.Players:GetPlayers()
+function noob(player)
+    local character
+    repeat wait() until player.Character
+    local handler = makemarker(guimain, player.Character:WaitForChild(SelectedPart), Color3.fromRGB(120, 6, 213), 0.3, 3)
+    handler.Name = player.Name
+    player.CharacterAdded:connect(function(Char) handler.Adornee = Char:WaitForChild(SelectedPart) end)
+
+
+    spawn(function()
+        while wait() do
+            if player.Character then
+            end
+        end
+    end)
+end
+
+for i = 1, #data do
+    if data[i] ~= game.Players.LocalPlayer then
+        noob(data[i])
+    end
+end
+
+game.Players.PlayerAdded:connect(function(Player)
+    noob(Player)
+end)
+
+spawn(function()
+    placemarker.Anchored = true
+    placemarker.CanCollide = false
+    if Settings.rewrittenmain.DOT == true then
+    placemarker.Size = Vector3.new(8, 8, 8)
+    else
+    placemarker.Size = Vector3.new(0, 0, 0)
+    end
+    placemarker.Transparency = 0.50
+    if Settings.rewrittenmain.DOT then
+    makemarker(placemarker, placemarker, Color3.fromRGB(120, 6, 213), 0.40, 0)
+    end
+end)
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
+    if k == Settings.rewrittenmain.Key and Settings.rewrittenmain.Enabled then
+        if enabled == true then
+            enabled = false
+            if Settings.rewrittenmain.NOTIF == true then
+                Plr = getClosestPlayerToCursor()
+            game.StarterGui:SetCore("SendNotification", {
+                Title = "unleaked";
+                Text = "Unlocked",
+                Duration = 3
+            })
+        end
+        else
+            Plr = getClosestPlayerToCursor()
+            enabled = true
+            if Settings.rewrittenmain.NOTIF == true then
+
+                game.StarterGui:SetCore("SendNotification", {
+                    Title = "calibrate.cc";
+                    Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
+                    Duration = 3
+                })
+
+            end
+        end
+    end
+end)
+
+
+
+function getClosestPlayerToCursor()
+    local closestPlayer
+    local shortestDistance = Settings.rewrittenmain.FOV
+
+    for i, v in pairs(game.Players:GetPlayers()) do
+        if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("HumanoidRootPart") then
+            local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+            local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+            if magnitude < shortestDistance then
+                closestPlayer = v
+                shortestDistance = magnitude
+            end
+        end
+    end
+    return closestPlayer
+end
+
+local pingvalue = nil;
+local split = nil;
+local ping = nil;
+
+game:GetService"RunService".Stepped:connect(function()
+    if enabled and Plr.Character ~= nil and Plr.Character:FindFirstChild("HumanoidRootPart") then
+        placemarker.CFrame = CFrame.new(Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor))
+                        local Vector1 = CC:WorldToViewportPoint(Plr.Character.HumanoidRootPart.Position)
+        Line.Color = Color3.fromRGB(120, 6, 213)
+            Line.Transparency = 1
+            Line.Thickness = 1
+            Line.From = Vector2.new(mouse.X, mouse.Y + Inset)
+            Line.To = Vector2.new(Vector1.X, Vector1.Y)
+            Line.Visible = true
+            Text.Position = Vector2.new(mouse.X, mouse.Y + Inset)
+            Text.Visible = false
+            Text.Center = true
+            Text.Outline = true
+            Text.Font = 1
+            Text.Size = 35
+            Text.Color = Color3.fromRGB(120, 6, 213)
+            Text.Text = "gg ez fuck you"
+            Circle.Position = Vector2.new(mouse.X, mouse.Y + Inset)
+            Circle.Visible = false
+            Circle.Thickness = 1.5
+            Circle.Thickness = 2
+            Circle.Radius = 325
+            Circle.Color = Color3.fromRGB(120, 6, 213)
+    else
+                        Circle.Visible = false
+            Line.Visible = false
+            Text.Visible = false
+        placemarker.CFrame = CFrame.new(0, 9999, 0)
+    end
+    if Settings.rewrittenmain.AUTOPRED == true then
+         pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+         split = string.split(pingvalue,'(')
+         ping = tonumber(split[1])
+        if ping < 130 then
+            PredictionValue = 0.151
+        elseif ping < 125 then
+            PredictionValue = 0.149
+        elseif ping < 110 then
+            PredictionValue = 0.146
+        elseif ping < 105 then
+            PredictionValue = 0.138
+        elseif ping < 90 then
+            PredictionValue = 0.136
+        elseif ping < 80 then
+            PredictionValue = 0.134
+        elseif ping < 70 then
+            PredictionValue = 0.131
+        elseif ping < 60 then
+            PredictionValue = 0.1229
+        elseif ping < 50 then
+            PredictionValue = 0.1225
+        elseif ping < 40 then
+            PredictionValue = 0.1256
+        end
+    end
+end)
+
+local mt = getrawmetatable(game)
+local old = mt.__namecall
+setreadonly(mt, false)
+mt.__namecall = newcclosure(function(...)
+    local args = {...}
+    if enabled and getnamecallmethod() == "FireServer" and args[2] == "UpdateMousePos" and Settings.rewrittenmain.Enabled and Plr.Character ~= nil then
+
+        -- args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor)
+        --[[
+        if Settings.rewrittenmain.AIRSHOT == true then
+            if game.Workspace.Players[Plr.Name].Humanoid:GetState() == Enum.HumanoidStateType.Freefall then -- Plr.Character:WaitForChild("Humanoid"):GetState() == Enum.HumanoidStateType.Freefall
+                
+                --// Airshot
+                args[3] = Plr.Character.LeftFoot.Position+(Plr.Character.LeftFoot.Velocity*PredictionValue)
+
+            else
+                args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*PredictionValue)
+
+            end
+        else
+                args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*PredictionValue)
+        end
+        ]]
+        if Prediction == true then
+            
+        args[3] = Plr.Character[SelectedPart].Position+(Plr.Character[SelectedPart].Velocity*PredictionValue)
+
+        else
+
+        args[3] = Plr.Character[SelectedPart].Position
+
+        end
+
+        return old(unpack(args))
+    end
+    return old(...)
+end)
+
+game:GetService("RunService").RenderStepped:Connect(function()
+    if Settings.rewrittenmain.RESOVLER == true and Plr.Character ~= nil and enabled and Settings.rewrittenmain.Enabled then
+    if Settings.rewrittenmain.AIRSHOT == true and enabled and Plr.Character ~= nil then
+        
+        if game.Workspace.Players[Plr.Name].Humanoid:GetState() == Enum.HumanoidStateType.Freefall then -- Plr.Character:WaitForChild("Humanoid"):GetState() == Enum.HumanoidStateType.Freefall
+            
+            --// Airshot
+
+            --// Anchor Check
+
+            if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+                AnchorCount = AnchorCount + 1
+                if AnchorCount >= MaxAnchor then
+                    Prediction = false
+                    wait(2)
+                    AnchorCount = 0;
+                end
+            else
+                Prediction = true
+                AnchorCount = 0;
+            end
+
+            SelectedPart = "LeftFoot"
+
+        else
+            --// Anchor Check
+
+            if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+                AnchorCount = AnchorCount + 1
+                if AnchorCount >= MaxAnchor then
+                    Prediction = false
+                    wait(2)
+                    AnchorCount = 0;
+                end
+            else
+                Prediction = true
+                AnchorCount = 0;
+            end
+
+            SelectedPart = "HumanoidRootPart"
+
+        end
+        else
+
+            --// Anchor Check
+
+            if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+                AnchorCount = AnchorCount + 1
+                if AnchorCount >= MaxAnchor then
+                    Prediction = false
+                    wait(2)
+                    AnchorCount = 0;
+                end
+            else
+                Prediction = true
+                AnchorCount = 0;
+            end
+
+            SelectedPart = "HumanoidRootPart"
+        end
+
+    else
+            SelectedPart = "HumanoidRootPart"
+    end
+end)
+
+end)
+
+TextLabel_6.Parent = TextButton_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_6.Position = UDim2.new(0, 0, -0.695652187, 0)
+TextLabel_6.Size = UDim2.new(0, 71, 0, 16)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Aimlock (2)"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_6.TextSize = 14.000
+
+TextButton_3.Parent = Frame_3
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_3.Position = UDim2.new(0.0399229862, 0, 0.424036294, 0)
+TextButton_3.Size = UDim2.new(0, 71, 0, 24)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Aimlock"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/anothertoollock"))()
+
+end)
+
+TextLabel_7.Parent = TextButton_3
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_7.Position = UDim2.new(0, 0, -0.695652187, 0)
+TextLabel_7.Size = UDim2.new(0, 71, 0, 16)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Aimlock (1)"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_7.TextSize = 14.000
+
+black_3.Name = "black"
+black_3.Parent = Frame_3
+black_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+black_3.BorderColor3 = Color3.fromRGB(255, 0, 4)
+black_3.Position = UDim2.new(-0.00247028307, 0, 0.726757467, 0)
+black_3.Size = UDim2.new(0, 279, 0, 26)
+black_3.Font = Enum.Font.SourceSans
+black_3.Text = "ESP"
+black_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+black_3.TextSize = 14.000
+
+black_4.Name = "black"
+black_4.Parent = Frame_3
+black_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+black_4.BorderColor3 = Color3.fromRGB(255, 0, 4)
+black_4.Position = UDim2.new(0.873679996, 0, 0.416099697, 0)
+black_4.Size = UDim2.new(0, 31, 0, 53)
+black_4.Font = Enum.Font.SourceSans
+black_4.Text = "A"
+black_4.TextColor3 = Color3.fromRGB(255, 0, 4)
+black_4.TextSize = 14.000
+
+Frame_4.Name = "Frame"
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Frame_4.Position = UDim2.new(0.0304054059, 0, 0.666666687, 0)
+Frame_4.Size = UDim2.new(0, 279, 0, 90)
+Frame_4.Font = Enum.Font.SourceSans
+Frame_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.TextSize = 14.000
+
+ESP.Name = "ESP"
+ESP.Parent = Frame_4
+ESP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ESP.BorderColor3 = Color3.fromRGB(255, 0, 4)
+ESP.Position = UDim2.new(0.563571692, 0, 0.424036294, 0)
+ESP.Size = UDim2.new(0, 71, 0, 24)
+ESP.Font = Enum.Font.SourceSans
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(255, 0, 4)
+ESP.TextSize = 14.000
+ESP.MouseButton1Down:connect(function()
+	print('Gui Not Working')
+end)
+
+TextLabel_8.Parent = ESP
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_8.Position = UDim2.new(0, 0, -0.695652187, 0)
+TextLabel_8.Size = UDim2.new(0, 71, 0, 16)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "ESP (3)"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_8.TextSize = 14.000
+
+ESP_2.Name = "ESP"
+ESP_2.Parent = Frame_4
+ESP_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ESP_2.BorderColor3 = Color3.fromRGB(255, 0, 4)
+ESP_2.Position = UDim2.new(0.303436518, 0, 0.424036294, 0)
+ESP_2.Size = UDim2.new(0, 71, 0, 24)
+ESP_2.Font = Enum.Font.SourceSans
+ESP_2.Text = "ESP"
+ESP_2.TextColor3 = Color3.fromRGB(255, 0, 4)
+ESP_2.TextSize = 14.000
+ESP_2.MouseButton1Down:connect(function()
+	print('Gui Not Working')
+end)
+
+TextLabel_9.Parent = ESP_2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_9.Position = UDim2.new(0, 0, -0.695652187, 0)
+TextLabel_9.Size = UDim2.new(0, 71, 0, 16)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "ESP (2)"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_9.TextSize = 14.000
+
+ESP_3.Name = "ESP"
+ESP_3.Parent = Frame_4
+ESP_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ESP_3.BorderColor3 = Color3.fromRGB(255, 0, 4)
+ESP_3.Position = UDim2.new(0.0399229862, 0, 0.424036294, 0)
+ESP_3.Size = UDim2.new(0, 71, 0, 24)
+ESP_3.Font = Enum.Font.SourceSans
+ESP_3.Text = "ESP"
+ESP_3.TextColor3 = Color3.fromRGB(255, 0, 4)
+ESP_3.TextSize = 14.000
+ESP_3.MouseButton1Down:connect(function()
+	print('Gui Not Working')
+end)
+
+TextLabel_10.Parent = ESP_3
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_10.Position = UDim2.new(0, 0, -0.695652187, 0)
+TextLabel_10.Size = UDim2.new(0, 71, 0, 16)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "ESP (1)"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_10.TextSize = 14.000
+
+black_5.Name = "black"
+black_5.Parent = Frame_4
+black_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+black_5.BorderColor3 = Color3.fromRGB(255, 0, 4)
+black_5.Position = UDim2.new(-0.00247028307, 0, 0.726757467, 0)
+black_5.Size = UDim2.new(0, 279, 0, 26)
+black_5.Font = Enum.Font.SourceSans
+black_5.Text = "ESP"
+black_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+black_5.TextSize = 14.000
+
+black_6.Name = "black"
+black_6.Parent = Frame_4
+black_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+black_6.BorderColor3 = Color3.fromRGB(255, 0, 4)
+black_6.Position = UDim2.new(0.873679996, 0, 0.416099697, 0)
+black_6.Size = UDim2.new(0, 31, 0, 53)
+black_6.Font = Enum.Font.SourceSans
+black_6.Text = "E"
+black_6.TextColor3 = Color3.fromRGB(255, 0, 4)
+black_6.TextSize = 14.000
+
+Frame_5.Parent = Frame
+Frame_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.Position = UDim2.new(0.527102232, -150, 0.354043216, -150)
+Frame_5.Size = UDim2.new(0, 79, 0, 39)
+
+-- Scripts:
+
+local function HSRP_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(HSRP_fake_script)()
